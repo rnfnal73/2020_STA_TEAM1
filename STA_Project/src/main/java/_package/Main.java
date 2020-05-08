@@ -1,5 +1,5 @@
 package _package;
-//pull request test
+//test
 public class Main {
     public static void main(String arg []){
 
