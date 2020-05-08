@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 // I wanted to make the program by using function declaration, I/O and switch function.
-
+//TEST
  public class JihoWooHW1a
  {
   
