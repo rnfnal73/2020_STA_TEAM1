@@ -15,6 +15,6 @@ public class MultiplierTest {
     @Test
     public void multiply1() {
         Multiplier multiplier = new Multiplier();
-        assertEquals(multiplier.Multiply(2,3,4),20);
+        assertEquals(multiplier.Multiply(2,3,4),24);
     }
 }
