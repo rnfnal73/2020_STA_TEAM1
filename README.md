@@ -93,16 +93,16 @@ intellij 상단 메뉴에서 File - settings - version control - git에 들어�
 
 프로젝트에 수정사항(코드수정 등)이 발생했을때 이를 commit 하게되면 이것이 바로 github의 repository(remote repository)에 반영되는 것이 아닙니다. 이는 local repository에 반영되고 이를 remote repo에 push 해줘야 원본 코드에 반영되 되게됩니다.
 
-![commit](./readme_image/commit.jpg)
+![commit](./readme_image/commit.JPG)
 위 그림에서 초록색 v표시를 누릅니다.
 
-![commit2](./readme_image/commit2.jpg)
+![commit2](./readme_image/commit2.JPG)
 수정사항이 생긴 프로젝트 파일이 목록에 나타나게 되고 commit하고 싶은 파일을 선택해줍니다. commit에 대한 설명을 commit message에 남겨주고, commit 버튼을 눌러줍니다.
 
-![commit3](./readme_image/commit3.jpg)
+![commit3](./readme_image/commit3.JPG)
 commit을 확인하는 창이 나타나는데 error 없다면 commit을 진행합니다.
 
-![commit4](./readme_image/commit4.jpg)
+![commit4](./readme_image/commit4.JPG)
 위와 같은 창이 나타나면 local repo에 commit이 완료된것입니다.
 
 이제 remote repo에 반영하기 위해 push를 진행해보겠습니다.
@@ -111,17 +111,17 @@ commit을 확인하는 창이 나타나는데 error 없다면 commit을 진행�
 상단 메뉴에서 VCS - Git - push를 차례로 선택합니다.
 push할 저장소를 추가하기 위해 Define remote를 선택합니다.
 
-![push2](./readme_image/push2.jpg)
+![push2](./readme_image/push2.JPG)
 Name에 remote repository의 이름, url에 그 주소를 입력합니다.
 
-![push3](./readme_image/push3.jpg)
+![push3](./readme_image/push3.JPG)
 저장소가 추가되면 다시 한번 origin을 눌러 해당 저장소로 바꿔줍니다. 왼쪽 목록에 원본 저장소의 commit history가 나타나는 것을 볼 수 있습니다. 이제 push를 눌러줍니다.
 
-![push4](./readme_image/push4.jpg)
+![push4](./readme_image/push4.JPG)
 앞서 등록해둔 github account로 로그인 해줍니다.
 >이때 선택하는 account는 collaborator 권한을 가지고 있어야합니다.
 
-![push5](./readme_image/push5.jpg)
+![push5](./readme_image/push5.JPG)
 우측 하단에 위와 같은 메세지가 나온면 remote repo에 수정 사항이 반영된 것입니다.
 
 
