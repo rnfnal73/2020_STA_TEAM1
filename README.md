@@ -33,7 +33,7 @@ The file explorer is accessible using the button in left corner of the navigatio
 
 설치가 완료되면 바탕화면의 아무곳에나 대고 오른쪽 버튼을 클릭해 git bash를 열어줍니다.
 
-![gitconfig](./readme_image/gitconfig.jpg)
+![gitconfig](./readme_image/gitconfig.JPG)
 
 위와 같은 명령어를 통해 local git과 연동할 github의 이메일과 username을 등록해줍니다.
 
@@ -47,8 +47,8 @@ The file explorer is accessible using the button in left corner of the navigatio
 
 Github repository 소유자에게 collaborator invitation을 요청합니다. 소유자가 invitation을 보내면, github에 등록된 이메일로 invitation 메일이 오게됩니다.
 
-![invitation](./readme_image/invitation.jpg)
-![accept_invitation](./readme_image/accept_invitation.jpg)
+![invitation](./readme_image/invitation.JPG)
+![accept_invitation](./readme_image/accept_invitation.JPG)
 
 이메일에서 verify를 누르고 다음 과정을 거치게 되면 해당 repository의 collaborator로서 등록이 되게됩니다.
 
@@ -61,33 +61,33 @@ Github repository 소유자에게 collaborator invitation을 요청합니다. �
 
 여기서는 바탕화면에 git_test라는 폴더에 local git 저장소를 만들어 저장해보겠습니다.
 
-![cloning_repo](./readme_image/cloning_repo.jpg)
+![cloning_repo](./readme_image/cloning_repo.JPG)
 배쉬 명령어로 클론 해오는 그림
 
 git clone <클론하려는 저장소 주소> <복사하려는경로>
 위와 같은 명령어를 통해 바탕화면(Desktop) 경로에 git_test 폴더를 생성함과 동시에 local git 저장소로 만들었습니다.
 
-![cloned_folder](./readme_image/cloned_folder.jpg)
+![cloned_folder](./readme_image/cloned_folder.JPG)
 git_test 폴더 내부 그림
 
 위와 같이 .git 폴더와 github repository 프로젝트 파일들이 생성되었다면 성공적으로 clone된 것입니다.
 
 ##  5. **Intellij**에서 프로젝트 수정사항 **commit**, **push**하기
 
-![open_project](./readme_image/open_project.jpg)
+![open_project](./readme_image/open_project.JPG)
 먼저 intellij에서 생성한 clone해온 프로젝트를 열어 줍니다.
 
-![imported_project](./readme_image/imported_project.jpg)
+![imported_project](./readme_image/imported_project.JPG)
 
 위 프로젝트에서 src/main 과 src/test에 각각 소스코드와 그 소스코드를 테스트할 테스트코드를 하면됩니다.
 
-![intellij_git](./readme_image/intellij_git.jpg)
+![intellij_git](./readme_image/intellij_git.JPG)
 
 intellij에서 작성한 코드 수정사항을 반영하기 위해서는 intellij에 
 git.exe 파일의 위치를 인식 시켜줘야 합니다.
 intellij 상단 메뉴에서 File - settings - version control - git에 들어가면 자동으로 git.exe의 위치를 찾아줍니다. 여기서 test 버튼을 클릭해 git version이 제대로 뜨는지 확인해줍니다.
 
-![intellij_github](./readme_image/intellij_github.jpg)
+![intellij_github](./readme_image/intellij_github.JPG)
 
 같은 위치에서 version control - github에서 우측 상단 +를 클릭해 자신의 github account를 입력해줍니다. login에는 이메일 주소 or username을 입력하고 비밀번호를 입력해준 뒤 로그인 해줍니다.
 
