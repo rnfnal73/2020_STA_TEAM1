@@ -17,25 +17,26 @@ dependencies {
 }
 
 checkstyle {
-  ignoreFailures = true 
-    configFile = file("checkstyle.xml") 
-    reportsDir = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports") 
+    ignoreFailures = true 
+    configFile = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/google_checks.xml") 
+    reportsDir = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/checkstyle") 
 }
  
 checkstyleMain {
     reports {
-        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/checkstyle-result.xml")
+        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/checkstyle/checkstyle.xml")
     }
 }
 
 pmd {
   ignoreFailures = true 
-    reportsDir = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports")
+    reportsDir = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/pmd")
 }
  
 pmdMain {
     reports {
-        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/pmd-result.xml")
+        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/pmd/pmd.xml")
+        html.enabled = false
         xml.enabled = true
     }
 }
