@@ -9,7 +9,7 @@ public class MultiplierTest {
     @Test
     public void multiply() {
         Multiplier multiplier = new Multiplier();
-        assertEquals(72,multiplier.Multiply(8,9));
+        assertEquals(multiplier.Multiply(8,9), 72);
     }
 
     @Test
