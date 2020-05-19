@@ -17,8 +17,9 @@ dependencies {
 
 checkstyle {
     ignoreFailures = true 
-    configFile = file("google_checks.xml") 
     reportsDir = file("build/reports/checkstyle") 
+
+출처: https://netframework.tistory.com/entry/gradle-정리-code-analysis [Programming is Fun]
 }
  
 checkstyleMain {
