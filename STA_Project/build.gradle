@@ -24,7 +24,7 @@ checkstyle {
  
 checkstyleMain {
     reports {
-        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/checkstyle-report.xml") 
+        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/checkstyle-result.xml")
     }
 }
 
@@ -35,7 +35,7 @@ pmd {
  
 pmdMain {
     reports {
-        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/pmd-report.xml")
+        xml.destination = file("/var/lib/jenkins/workspace/STA_ENVIRONMENT/STA_Project/build/reports/pmd-result.xml")
         xml.enabled = true
     }
 }
