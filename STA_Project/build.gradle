@@ -27,4 +27,14 @@ checkstyleMain {
     }
 }
 
-
+pmd {
+  ignoreFailures = true
+    reportsDir = file("build/reports/pmd")
+}
+ 
+pmdMain {
+    reports {
+        xml.destination = file("build/reports/pmd/pmd.xml")
+        xml.enabled = true
+    }
+}
