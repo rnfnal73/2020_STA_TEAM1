@@ -2,7 +2,6 @@ plugins {
     id 'java'
     id "org.sonarqube" version "2.7"
     id 'checkstyle'
-    id 'pmd'
 }
 
 group 'org.example'
@@ -18,7 +17,7 @@ dependencies {
 
 checkstyle {
     ignoreFailures = true 
-    configFile = file("google_checks.xml") 
+    configFile = file("googlechecks.xml") 
     reportsDir = file("build/reports/checkstyle") 
 }
  
