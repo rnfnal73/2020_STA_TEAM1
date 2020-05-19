@@ -17,7 +17,7 @@ dependencies {
 
 checkstyle {
     ignoreFailures = true 
-    configFile = file("googlechecks.xml") 
+    configFile = file("google_checks.xml") 
     reportsDir = file("build/reports/checkstyle") 
 }
  
